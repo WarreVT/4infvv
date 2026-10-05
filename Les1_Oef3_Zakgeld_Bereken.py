@@ -1,0 +1,6 @@
+taakjes = int(input( "Hoeveel taakjes heb je gedaan? :"))
+afruimen = int(input( "Hoeveel keer heb je de tafel niet afgeruimd: "))
+Zakgeld_maandelijks = int(5)
+Zakgeld_taakjes = int(taakjes*2)
+Zakgeld_totaal = int(Zakgeld_maandelijks + Zakgeld_taakjes - afruimen)
+print( "Lio krijgt "+ str(Zakgeld_totaal) + " euro zakgeld deze week.")
