@@ -1,1 +1,0 @@
-print("Wesley is de beste")
